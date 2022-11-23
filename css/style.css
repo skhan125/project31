@@ -30,6 +30,10 @@ section h3 {
     background-color: #934949;
     color: #c19b85;
 }
+/* House styles below */
+@font-face {
+    font-family: "American Typewriter";
+}
 *{
     box-sizing: border-box;
 }
@@ -37,7 +41,6 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #dadada;
     font-size: 1em;
-    font-weight: bold;
     font-weight: 500;
     /* font-size: 1.5rem; */
 }
@@ -72,18 +75,10 @@ h1, h2, h3, h4, h5{
 h1{
   font-size: 1.602em;
   line-height:2em;
-  background-color: #cf1e1e;
-  color: #f8d4bf;
 }
 h2{
   font-size: 1.424em;
   line-height:1.5em;
-  background-color: #404040;
-  color: #ffffff;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
 }
 h3{
   font-size: 1.266em;
@@ -171,6 +166,9 @@ main{
   right: 0;
   position: relative;
 }
+
+
+
 @media screen and (min-width: 700px){
   section{
     height: max-content;
